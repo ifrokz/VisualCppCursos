@@ -1,0 +1,4 @@
+﻿  main.cpp
+c:\users\ivan\documents\visual studio 2017\projects\punterostransmisiondedirecciones\punterostransmisiondedirecciones\main.cpp(8): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
+  PunterosTransmisionDeDirecciones.vcxproj -> c:\users\ivan\documents\visual studio 2017\Projects\PunterosTransmisionDeDirecciones\Debug\PunterosTransmisionDeDirecciones.exe
+  PunterosTransmisionDeDirecciones.vcxproj -> c:\users\ivan\documents\visual studio 2017\Projects\PunterosTransmisionDeDirecciones\Debug\PunterosTransmisionDeDirecciones.pdb (Partial PDB)

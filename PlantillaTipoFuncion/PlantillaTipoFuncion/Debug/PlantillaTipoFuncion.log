@@ -1,0 +1,5 @@
+﻿  main.cpp
+c:\users\ivan\documents\visual studio 2017\projects\curso\plantillatipofuncion\plantillatipofuncion\main.cpp(12): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
+c:\users\ivan\documents\visual studio 2017\projects\curso\plantillatipofuncion\plantillatipofuncion\main.cpp(13): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
+  PlantillaTipoFuncion.vcxproj -> C:\Users\Ivan\Documents\Visual Studio 2017\Projects\curso\PlantillaTipoFuncion\Debug\PlantillaTipoFuncion.exe
+  PlantillaTipoFuncion.vcxproj -> C:\Users\Ivan\Documents\Visual Studio 2017\Projects\curso\PlantillaTipoFuncion\Debug\PlantillaTipoFuncion.pdb (Partial PDB)
