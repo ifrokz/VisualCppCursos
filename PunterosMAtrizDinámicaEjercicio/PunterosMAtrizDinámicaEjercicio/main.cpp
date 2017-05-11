@@ -3,6 +3,7 @@
 using namespace std;
 
 void pedirDatos();
+void sumarDatos(int **,int **,int, int);
 void muestraDatos();
 
 int **arr_1, **arr_2, nFilas,nCol;
@@ -11,6 +12,8 @@ int main() {
 	pedirDatos();
 
 	muestraDatos();
+
+	sumarDatos(arr_1, arr_2, nFilas, nCol);
 
 	system("pause");
 	return 0;
@@ -47,6 +50,13 @@ void pedirDatos() {
 	}
 }
 
+void sumarDatos(int ** arr1,int **arr2,int nFilas,int nCol) {
+	for (int i = 0; i < nFilas; i ++) {
+		for (int j = 0; j < nCol; j++) {
+			cout << "La suma de arr_1[" << i << "][" << j << "](" << *(*(arr1 + i) + j) << ") + arr_2[" << i << "][" << j << "]("<< *(*(arr2 + i) + j) <<") = " << ( *(*(arr1+i)+j) + *(*(arr2+i)+j)) << endl;
+		}
+	}
+}
 
 void muestraDatos() {
 	for (int i = 0; i < nFilas; i++) {
@@ -60,7 +70,7 @@ void muestraDatos() {
 
 	for (int i = 0; i < nFilas; i++) {
 		for (int j = 0; j < nCol; j++) {
-			cout << "El valor para arr_2[" << i << "][" << j << "]: " << arr_2[i][j] << " | ";
+			cout << "El valor para arr_2[" << i << "][" << j << "]: " << *(*(arr_2+i)+j) << " | ";
 		}
 		cout << endl;
 	}
